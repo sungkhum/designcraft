@@ -1,0 +1,67 @@
+[
+  {
+    "command": "file.new",
+    "params": {
+      "width": 620,
+      "height": 170,
+      "facingPages": false,
+      "margins": 20,
+      "title": "Khmer subscript shaping reproduction"
+    }
+  },
+  {
+    "command": "file.save",
+    "params": {
+      "path": "/PATH/Public-Khmer-Shaping.designcraft"
+    }
+  },
+  {
+    "command": "file.open",
+    "params": {
+      "path": "/PATH/Public-Khmer-Shaping.designcraft"
+    }
+  },
+  {
+    "command": "frame.create",
+    "params": {
+      "rect": [
+        24,
+        18,
+        596,
+        150
+      ],
+      "content": "text",
+      "text": "ក្ខ    ខ្មែរ    ព្រះ    ស្ត្រី    ប្រទេស"
+    }
+  },
+  {
+    "command": "selection.set",
+    "params": {
+      "ids": [
+        "$3.id"
+      ]
+    }
+  },
+  {
+    "command": "type.char",
+    "params": {
+      "attrs": {
+        "fontFamily": "Content Enhanced",
+        "fontStyle": "Regular",
+        "size": 36,
+        "language": "Khmer",
+        "ligatures": false
+      }
+    }
+  },
+  {
+    "command": "type.para",
+    "params": {
+      "attrs": {
+        "align": "left",
+        "hyphenate": false,
+        "composer": "paragraph"
+      }
+    }
+  }
+]
