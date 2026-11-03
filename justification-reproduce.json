@@ -1,0 +1,326 @@
+[
+  {
+    "command": "file.new",
+    "params": {
+      "width": 920,
+      "height": 340,
+      "facingPages": false,
+      "margins": 20,
+      "title": "Khmer justification"
+    }
+  },
+  {
+    "command": "file.save",
+    "params": {
+      "path": "/PATH/Public-Khmer-Justification.designcraft"
+    }
+  },
+  {
+    "command": "file.open",
+    "params": {
+      "path": "/PATH/Public-Khmer-Justification.designcraft"
+    }
+  },
+  {
+    "command": "frame.create",
+    "params": {
+      "rect": [
+        24,
+        16,
+        294,
+        40
+      ],
+      "content": "text",
+      "text": "Automatic wrapping"
+    }
+  },
+  {
+    "command": "selection.set",
+    "params": {
+      "ids": [
+        "$3.id"
+      ]
+    }
+  },
+  {
+    "command": "type.char",
+    "params": {
+      "attrs": {
+        "fontFamily": "Source Sans 3",
+        "fontStyle": "Regular",
+        "size": 12,
+        "language": "[No Language]",
+        "ligatures": true,
+        "leading": {
+          "kind": "points",
+          "value": 18
+        }
+      }
+    }
+  },
+  {
+    "command": "type.para",
+    "params": {
+      "attrs": {
+        "align": "left",
+        "hyphenate": false,
+        "composer": "paragraph"
+      }
+    }
+  },
+  {
+    "command": "frame.create",
+    "params": {
+      "rect": [
+        326,
+        16,
+        596,
+        40
+      ],
+      "content": "text",
+      "text": "Justified: no real space, no gap"
+    }
+  },
+  {
+    "command": "selection.set",
+    "params": {
+      "ids": [
+        "$7.id"
+      ]
+    }
+  },
+  {
+    "command": "type.char",
+    "params": {
+      "attrs": {
+        "fontFamily": "Source Sans 3",
+        "fontStyle": "Regular",
+        "size": 12,
+        "language": "[No Language]",
+        "ligatures": true,
+        "leading": {
+          "kind": "points",
+          "value": 18
+        }
+      }
+    }
+  },
+  {
+    "command": "type.para",
+    "params": {
+      "attrs": {
+        "align": "left",
+        "hyphenate": false,
+        "composer": "paragraph"
+      }
+    }
+  },
+  {
+    "command": "frame.create",
+    "params": {
+      "rect": [
+        628,
+        16,
+        898,
+        40
+      ],
+      "content": "text",
+      "text": "Justified: author adds real spaces"
+    }
+  },
+  {
+    "command": "selection.set",
+    "params": {
+      "ids": [
+        "$11.id"
+      ]
+    }
+  },
+  {
+    "command": "type.char",
+    "params": {
+      "attrs": {
+        "fontFamily": "Source Sans 3",
+        "fontStyle": "Regular",
+        "size": 12,
+        "language": "[No Language]",
+        "ligatures": true,
+        "leading": {
+          "kind": "points",
+          "value": 18
+        }
+      }
+    }
+  },
+  {
+    "command": "type.para",
+    "params": {
+      "attrs": {
+        "align": "left",
+        "hyphenate": false,
+        "composer": "paragraph"
+      }
+    }
+  },
+  {
+    "command": "frame.create",
+    "params": {
+      "rect": [
+        24,
+        47,
+        294,
+        320
+      ],
+      "content": "text",
+      "text": "ទ្រង់បានបង្កើតរបស់ខ្លះមកឲ្យអាចកម្រើកបាន និងខ្លះទៀតមិនអាចកម្រើកបានខ្លះស្អាត និងខ្លះទៀតមិនស្អាត ហើយរបស់ទាំងអស់នោះសុទ្ធតែមានគុណសម្បត្តិខុសៗគ្នា ប៉ុន្តែគ្មាននិចលភាព ឬក៏ស្មារតីសោះឡើយ។"
+    }
+  },
+  {
+    "command": "selection.set",
+    "params": {
+      "ids": [
+        "$15.id"
+      ]
+    }
+  },
+  {
+    "command": "type.char",
+    "params": {
+      "attrs": {
+        "fontFamily": "Content Enhanced",
+        "fontStyle": "Regular",
+        "size": 18,
+        "language": "Khmer",
+        "ligatures": true,
+        "leading": {
+          "kind": "points",
+          "value": 29
+        }
+      }
+    }
+  },
+  {
+    "command": "type.para",
+    "params": {
+      "attrs": {
+        "align": "left",
+        "hyphenate": false,
+        "composer": "paragraph"
+      }
+    }
+  },
+  {
+    "command": "frame.create",
+    "params": {
+      "rect": [
+        326,
+        47,
+        596,
+        320
+      ],
+      "content": "text",
+      "text": "ទ្រង់បានបង្កើតរបស់ខ្លះមកឲ្យអាចកម្រើកបាន និងខ្លះទៀតមិនអាចកម្រើកបានខ្លះស្អាត និងខ្លះទៀតមិនស្អាត ហើយរបស់ទាំងអស់នោះសុទ្ធតែមានគុណសម្បត្តិខុសៗគ្នា ប៉ុន្តែគ្មាននិចលភាព ឬក៏ស្មារតីសោះឡើយ។"
+    }
+  },
+  {
+    "command": "selection.set",
+    "params": {
+      "ids": [
+        "$19.id"
+      ]
+    }
+  },
+  {
+    "command": "type.char",
+    "params": {
+      "attrs": {
+        "fontFamily": "Content Enhanced",
+        "fontStyle": "Regular",
+        "size": 18,
+        "language": "Khmer",
+        "ligatures": true,
+        "leading": {
+          "kind": "points",
+          "value": 29
+        }
+      }
+    }
+  },
+  {
+    "command": "type.para",
+    "params": {
+      "attrs": {
+        "align": "leftJustified",
+        "hyphenate": false,
+        "composer": "paragraph",
+        "wordSpaceMin": 1.0,
+        "wordSpaceDesired": 1.0,
+        "wordSpaceMax": 1.0,
+        "letterSpaceMin": 0.0,
+        "letterSpaceDesired": 0.0,
+        "letterSpaceMax": 0.0,
+        "glyphScaleMin": 0.96,
+        "glyphScaleDesired": 1.0,
+        "glyphScaleMax": 1.04,
+        "singleWordJustify": "left"
+      }
+    }
+  },
+  {
+    "command": "frame.create",
+    "params": {
+      "rect": [
+        628,
+        47,
+        898,
+        320
+      ],
+      "content": "text",
+      "text": "ទ្រង់បានបង្កើតរបស់ខ្លះ មកឲ្យអាចកម្រើកបាន និងខ្លះទៀតមិនអាចកម្រើកបាន ខ្លះស្អាត និងខ្លះទៀតមិនស្អាត ហើយរបស់ទាំងអស់នោះ សុទ្ធតែមានគុណសម្បត្តិខុសៗគ្នា ប៉ុន្តែគ្មាននិចលភាព ឬក៏ស្មារតីសោះឡើយ។"
+    }
+  },
+  {
+    "command": "selection.set",
+    "params": {
+      "ids": [
+        "$23.id"
+      ]
+    }
+  },
+  {
+    "command": "type.char",
+    "params": {
+      "attrs": {
+        "fontFamily": "Content Enhanced",
+        "fontStyle": "Regular",
+        "size": 18,
+        "language": "Khmer",
+        "ligatures": true,
+        "leading": {
+          "kind": "points",
+          "value": 29
+        }
+      }
+    }
+  },
+  {
+    "command": "type.para",
+    "params": {
+      "attrs": {
+        "align": "leftJustified",
+        "hyphenate": false,
+        "composer": "paragraph",
+        "wordSpaceMin": 1.0,
+        "wordSpaceDesired": 1.0,
+        "wordSpaceMax": 1.0,
+        "letterSpaceMin": 0.0,
+        "letterSpaceDesired": 0.0,
+        "letterSpaceMax": 0.0,
+        "glyphScaleMin": 0.96,
+        "glyphScaleDesired": 1.0,
+        "glyphScaleMax": 1.04,
+        "singleWordJustify": "left"
+      }
+    }
+  }
+]
